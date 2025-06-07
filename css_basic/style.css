@@ -1,0 +1,36 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+main {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px
+}
+article {
+  flex: 1;
+  padding: 20px;
+  background-color: rgb(222, 211, 255);
+    overflow-y: auto;
+    box-shadow: rgb(225, 53, 53);
+    border-radius: 8px;
+}
+aside {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+   border-left: 1px solid #ccc;
+  background-color: rgb(37, 13, 213);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}

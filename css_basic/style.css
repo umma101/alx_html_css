@@ -9,6 +9,17 @@ body{
     flex-direction: column;
 
 }
+.navbar {
+  display: flex;
+  flex-direction: row;/* logo left, links right */
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f5f5f5;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;}
 main {
   display: flex;
   flex: auto;
@@ -34,3 +45,16 @@ aside {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
 }
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}
+nav {
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
